@@ -19,7 +19,8 @@ INSERT INTO beds(ward, bed_number) VALUES
 INSERT INTO patients(name, dob, gender, phone, email, blood_group) VALUES
 ('Ram Bahadur', '1990-05-10', 'Male',   '9811111111', 'ram@mail.com',  'O+'),
 ('Sita Devi',   '1985-08-22', 'Female', '9811111112', 'sita@mail.com', 'A+'),
-('Hari Prasad', '2000-01-15', 'Male',   '9811111113', 'hari@mail.com', 'B+');
+('Hari Prasadd', '2000-01-15', 'Male',   '9811111113', 'hari@mail.com', 'B+');
+
 
 INSERT INTO appointments(patient_id, doctor_id, appt_date, appt_time, status) VALUES
 (1, 1, CURDATE(), '10:00:00', 'Scheduled'),
